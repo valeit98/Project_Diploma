@@ -1,6 +1,6 @@
 # Дипломный проект по профессии «Тестировщик»
 
 1. [План тестирования](https://github.com/valeit98/Project_Diploma/blob/main/Plan.md);
-2. [](https://github.com/valeit98/Project_Diploma/blob/main/.md);
-3. [](https://github.com/valeit98/Project_Diploma/blob/main/.md).
+2. [Отчёт о проведённом тестировании](https://github.com/valeit98/Project_Diploma/blob/main/Report.md);
+3. [Отчёт о проведённой автоматизации](https://github.com/valeit98/Project_Diploma/blob/main/Summary.md).
 
