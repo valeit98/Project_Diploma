@@ -11,11 +11,15 @@ import ru.netology.diploma.page.TourPurchasePage;
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TourWebServiceTest {
+
     @BeforeAll
     static void setUpAll() {
         DataHelp.creatingTestDataMap();
         SelenideLogger.addListener("allure", new AllureSelenide());
+        WebDriverManager.firefoxdriver().setup();
     }
 
     @AfterAll
