@@ -1,11 +1,11 @@
-package ru.netology.diploma.data.constructor;
+package ru.netology.diploma.data.models;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class PaymentConstructorData {
+public class PaymentDataModel {
     private String id;
     private String amount;
     private String created;

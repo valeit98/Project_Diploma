@@ -4,8 +4,8 @@ import lombok.SneakyThrows;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
-import ru.netology.diploma.data.constructor.CreditConstructorData;
-import ru.netology.diploma.data.constructor.PaymentConstructorData;
+import ru.netology.diploma.data.models.CreditDataModel;
+import ru.netology.diploma.data.models.PaymentDataModel;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -58,25 +58,25 @@ public class DBaseHelp {
     }
 
     @SneakyThrows
-    public static PaymentConstructorData paymentData() {
+    public static PaymentDataModel paymentData() {
         var runner = new QueryRunner();
         var dataPaymentSQL = "SELECT * FROM " + schemas + ".payment_entity;";
         try (
                 var conn = connectToSQL()
         ) {
-            var allPaymentDataSQL = runner.query(conn, dataPaymentSQL, new BeanHandler<>(PaymentConstructorData.class));
+            var allPaymentDataSQL = runner.query(conn, dataPaymentSQL, new BeanHandler<>(PaymentDataModel.class));
             return allPaymentDataSQL;
         }
     }
 
     @SneakyThrows
-    public static CreditConstructorData creditData() {
+    public static CreditDataModel creditData() {
         var runner = new QueryRunner();
         var dataCreditSQL = "SELECT * FROM " + schemas + ".credit_request_entity;";
         try (
                 var conn = connectToSQL()
         ) {
-            var allCreditDataSQL = runner.query(conn, dataCreditSQL, new BeanHandler<>(CreditConstructorData.class));
+            var allCreditDataSQL = runner.query(conn, dataCreditSQL, new BeanHandler<>(CreditDataModel.class));
             return allCreditDataSQL;
         }
     }

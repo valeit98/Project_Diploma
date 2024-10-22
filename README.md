@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/20a5n49w82xfaw0m?svg=true)](https://ci.appveyor.com/project/valeit98/project-diploma)
+
 # Дипломный проект по профессии «Тестировщик».
 
 [Описание задания](https://github.com/netology-code/qa-diploma).
@@ -44,6 +46,4 @@
 ## Формирование отчёта о тестировании:
 Для формирования отчёта Allure после прохождения тестов каждой БД вводим команду: `./gradlew allureServe` .
 
-<a href="https://ibb.co/ChyDtWT"><img src="https://i.ibb.co/NZqb37H/MySQL.png" alt="MySQL" border="0"></a>
-
-<a href="https://ibb.co/qCzRnmW"><img src="https://i.ibb.co/G9XVJCt/Postgre-SQL.png" alt="Postgre-SQL" border="0"></a>
+<a href="https://ibb.co/VpPzz3G"><img src="https://i.ibb.co/XkvKKVP/image.png" alt="image" border="0"></a>

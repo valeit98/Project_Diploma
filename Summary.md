@@ -29,3 +29,7 @@
 * Написание тестов: `Планируемое время - 30/90 часов, фактическое - 40 часов`;
 * Написание отчётов о тестировании: `Планируемое время - 10/20 часов, фактическое - 30 часов`;
 * Написание отчётов об автоматизации: `Планируемое время - 10/12 часов, фактическое - 6 часов`.
+
+<a href="https://ibb.co/ChyDtWT"><img src="https://i.ibb.co/NZqb37H/MySQL.png" alt="MySQL" border="0"></a>
+
+<a href="https://ibb.co/qCzRnmW"><img src="https://i.ibb.co/G9XVJCt/Postgre-SQL.png" alt="Postgre-SQL" border="0"></a>
