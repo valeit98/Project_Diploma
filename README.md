@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/20a5n49w82xfaw0m?svg=true)](https://ci.appveyor.com/project/valeit98/project-diploma)
 
-# Дипломный проект по профессии «Тестировщик».
+# Дипломный проект по профессии «Тестировщик»
 
 [Описание задания](https://github.com/netology-code/qa-diploma).
 
@@ -20,7 +20,7 @@
 
 6. Сохранён на компьютер с Github [репозиторий проекта](https://github.com/valeit98/Project_Diploma).
 
-## Запуск тестов
+## Запуск тестов:
 1. Запустить MySQL, PostgreSQL, NodeJS через терминал в первой вкладке командой:
    `docker compose up` ;
 
